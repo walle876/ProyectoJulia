@@ -1,0 +1,6 @@
+requests
+rich
+python-dotenv
+google-generativeai
+streamlit
+google-generativeai
