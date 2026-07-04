@@ -11,8 +11,7 @@ if "GEMINI_API_KEY" in st.secrets:
     api_key = st.secrets["GEMINI_API_KEY"]
     genai.configure(api_key=api_key)
     # Usamos gemini-1.5-flash que es el modelo actual y más estable
-    model = genai.GenerativeModel('gemini-1.5-flash')
-    
+model = genai.GenerativeModel('gemini-pro')    
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
